@@ -135,7 +135,39 @@ header button
 }
 
 /*End partners*/
+/*Start items*/
+#items
+{
+    width: 100%;
+    color: white;
+	    margin-top: 860px;
+	    display: flex;
+        clear: both;
+    position: absolute;
+}
+#items .left
+{
+	width: 30%;
+	
+}
+#items pre
+{
+	    width: 100%;
+    color: #232317;
+    overflow: scroll;
+}
+#items img
+{
+	width: 100%;
+	height:100%;
+}
+#items .right
+{
+	width: 70%;
+    margin: 0px 13px;
+}
 
+/*End items*/
 
 /*Start footer*/
 #about
@@ -143,7 +175,7 @@ header button
     background: #106477;
     width: 100%;
     color: white;
-	    margin-top: 950px;
+	    margin-top: 1200px;
 	    display: flex;
         clear: both;
     position: absolute;

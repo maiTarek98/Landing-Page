@@ -1,18 +1,24 @@
 window.onload=function()
 {
+	// Start Create List Item 
 	let btnAdd=document.getElementById(`btnAdd`);
 	let i=0;
 	btnAdd.onclick=function(){
-		var list_name = window.prompt(`Add a name of navigation: `);
+
+		var list_name = window.prompt(`Add a name of navigation: `);   //to enable user to enter dynamic list item 
 
 		let addList = document.createElement(`li`);
-		let listNode = document.createTextNode(list_name);   
+		let listNode = document.createTextNode(list_name);     //save name which user entered in list
 		let colorStyle=listNode.style;  
 		addList.appendChild(listNode);   
-		document.getElementById(`list`).appendChild(addList); 
+		document.getElementById(`list`).appendChild(addList);  //show item list
 
 	}
+	// End
 
+
+
+// Strat for navigation fixed and data scroll  
 	let nav_item=document.getElementsByClassName(`nav-item`);
 	nav_item.onclick=function (e) {
 	    e.preventDefault();
@@ -48,13 +54,10 @@ document.body.onscroll=function(){
 		}
 
                 var  id = eachall.getAttribute(`id`);
-            // nav_item.removeClass(`active`);
-            // nav_item[data_scroll='"+ id +"'].addClass("active");
-
 
 }
 
-
+// End
 
 
 
