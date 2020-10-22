@@ -1,0 +1,157 @@
+body
+{
+	    padding: 0px;
+    margin: 0px;
+}
+
+/*Start navgition*/
+.active
+{
+	border-bottom: 5px solid black;
+}
+
+header
+{
+	background: #0f9bbb;
+	z-index: 1;
+}
+
+header ul
+{
+	display: inline-flex;
+}
+header ul li
+{
+	    margin: 0px 18px;
+    list-style-type: none;
+}
+header ul li a
+{
+	    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+header button
+{
+	    margin-left: 270px;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    background: #688041;
+}
+
+/*End navgition*/
+ h2
+{
+	    clear: both;
+    position: absolute;
+        color: #688041;
+}
+ h2::after
+{
+	      content: '';
+    border-bottom: 4px solid #0f9bbb;
+    height: 100%;
+    width: 50%;
+    padding: 3px 0px;
+    display: block;
+   }
+
+/*Start categories*/
+#categories 
+{
+	    display: flex;
+    margin: 30px 40px;
+        clear: both;
+    position: absolute;
+}
+
+
+#categories .card 
+{
+    padding: 0px 10px;
+        position: relative;
+    top: 80px;
+    border: 2px solid #8080803d;
+    margin: 0px 7px;
+    border-radius: 5px;
+
+}
+#categories .card img
+{
+	width: 100%;
+	height: 180px;
+}
+#categories::after
+{
+	    content: '';
+    border-bottom: 2px solid #0f9bbb;
+    height: 100%;
+    width: 100%;
+    padding: 3px 0px;
+    display: block;
+    position: absolute;
+    margin-top: 125px;
+}
+/*end categories*/
+
+/*Start partners*/
+#partners
+{
+	margin: 0 10px;
+	    margin-top: 500px;
+	    display: flex;
+        clear: both;
+    position: absolute;
+}
+#partners .card 
+{
+    padding: 0px 10px;
+      position: relative;
+    top: 80px;
+    width: 100%;
+    border: 2px solid #8080803d;
+    margin: 0px 7px;
+    border-radius: 5px;
+
+}
+#partners .card img
+{width: 40%;
+    height: 80px;
+    margin: 0 65px;
+
+}
+
+#partners::after
+{
+	    content: '';
+    border-bottom: 2px solid #0f9bbb;
+    height: 100%;
+    width: 100%;
+    padding: 3px 0px;
+    display: block;
+    position: absolute;
+    margin-top: 125px;
+}
+
+/*End partners*/
+
+
+/*Start footer*/
+#about
+{
+    background: #106477;
+    width: 100%;
+    color: white;
+	    margin-top: 950px;
+	    display: flex;
+        clear: both;
+    position: absolute;
+}
+
+#about li
+{
+	margin: 25px 0px;
+	font-size: 22px;
+}
+/*End footer*/
